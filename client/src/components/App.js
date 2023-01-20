@@ -20,9 +20,9 @@ function App(){
                 <div>
                     <Routes>
                         <Route path ="/" element={Auth(LandingPage, null)}/>
-                        <Route path = "/register" element = {Auth()} />
-                        <Route path = "/login" element = {Auth()} />
-                        <Route path = "/Newpassword" element = {Auth()} />
+                        <Route path = "/register" element = {Auth(RegisterPage, null)} />
+                        <Route path = "/login" element = {Auth(LoginPage, null)} />
+                        <Route path = "/Newpassword" element = {Auth(NewPassword, null)} />
                     </Routes>
                 </div>
             </Suspense>
