@@ -8,8 +8,9 @@ import {
 
 import Auth from "../hoc/auth";
 import LandingPage from "./views/LandingPage/LandingPage";
-
-
+import LoginPage from"./views/LoginPage/LoginPage";
+import RegisterPage from "./views/RegisterPage/RegisterPage";
+import NewPassword from "./views/NewPassword/NewPassword";
 
 
 function App(){
