@@ -35,7 +35,20 @@ function NavBar(){
                 >
                     <Icon type = "align-right" />
                 </Button>
+                <Drawer 
+                    title= "Basic Drawer"
+                    placement="right"
+                    className="menu_drawer"
+                    closable={false}
+                    onCLose={onClose}
+                    open={open}
+                    >
+                        <LeftMenu mode="inline"/>
+                        <RightMenu mode="inline" />
+                    </Drawer>
             </div>
         </nav>
     )
 }
+
+export default NavBar

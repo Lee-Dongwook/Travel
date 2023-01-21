@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import Auth from "../hoc/auth";
+import NavBar from "./views/NavBar/NavBar";
 import LandingPage from "./views/LandingPage/LandingPage";
 import LoginPage from"./views/LoginPage/LoginPage";
 import RegisterPage from "./views/RegisterPage/RegisterPage";
@@ -17,7 +18,8 @@ function App(){
     return(
         <Router>
             <Suspense fallback ={<div>Loading...</div>}>
-                <div></div>
+                <NavBar />
+                <div style={{paddingTop: "69px"}}></div>
                 <div>
                     <Routes>
                         <Route path ="/" element={Auth(LandingPage, null)}/>
