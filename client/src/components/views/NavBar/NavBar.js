@@ -17,7 +17,7 @@ function NavBar(){
     };
 
     return (
-        <nav clssName ="menu" style={{position: 'fixed', zIndex: 5, width: '100%'}}>
+        <nav clssName ="menu" style={{position: 'fixed', zIndex: 5, width: '50%'}}>
             <div className = "menu__logo">
                 <a href = "/">Travel</a>
             </div>

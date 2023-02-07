@@ -1,8 +1,13 @@
 import React from 'react';
+import KakaoMap from "../KakaoMap/KakaoMap";
+
 
 function LandingPage(){
     return(
         <div>
+        <div>
+            <KakaoMap />
+        </div>
         <div className="Title">
            <h1>Travel Spot</h1> 
         </div>
